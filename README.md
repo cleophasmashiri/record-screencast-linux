@@ -15,4 +15,4 @@ tv:// -tv driver=v4l2:width=400:height=300 -vo xv -geometry 100%:100% -noborder
 ./ffmpeg -i "video1.mp4 " -i "audio_replace.m4a" -vcodec copy -acodec copy -map 0:0 -map 1:0 output.mp4
 ```
 
-8. Upload your video to youtube.com
+8. Upload your video to youtube.com.
