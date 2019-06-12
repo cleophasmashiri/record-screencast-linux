@@ -10,7 +10,7 @@ tv:// -tv driver=v4l2:width=400:height=300 -vo xv -geometry 100%:100% -noborder
 ```
 5. Start and record your screencast using SimpleScreenRecorder.
 6. Remove white noise with Audacity, [Details](https://www.maketecheasier.com/remove-white-noise-audio-audacity/) .
-7.Replace audio in screencast using. [Details](https://superuser.com/questions/1116326/replace-audio-sync-save-all-to-a-new-video-file-vlc). 
+7. Replace audio in screencast using. [Details](https://superuser.com/questions/1116326/replace-audio-sync-save-all-to-a-new-video-file-vlc). 
 ```
 ./ffmpeg -i "video1.mp4 " -i "audio_replace.m4a" -vcodec copy -acodec copy -map 0:0 -map 1:0 output.mp4
 ```
