@@ -1,4 +1,4 @@
-# record-screencast-linux
+# Record Screencast on Linux(Ubuntu)
 How Record a Screencast on Linux using SimpleScreenRecorder, MPlayer, Audacity, ffmpeg and youtube
 
 1. Install [SimpleScreenRecorder](https://tecadmin.net/install-simple-screen-recorder-on-ubuntu-linuxmint/).
